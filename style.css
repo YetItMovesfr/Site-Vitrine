@@ -1,0 +1,57 @@
+:before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: red;
+    margin: 0;
+}
+
+nav{
+    background: royalblue;
+}
+
+.content{
+    flex-grow: 1;
+    background: gray;
+}
+
+.section{
+    padding: 50px 50px 50px;
+    height: 85vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.big{
+    background-color: red;
+    height: 100%;
+    width: 70%;
+}
+
+.small{
+    background-color: green;
+    height: 100%;
+    width: 30%;
+}
+
+h1{
+    color: #f1f1f1;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: royalblue;
+}
