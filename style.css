@@ -18,12 +18,11 @@ body{
 }
 
 nav{
-    background: royalblue;
+
 }
 
 .content{
     flex-grow: 1;
-    background: gray;
 }
 
 .section{
@@ -35,13 +34,11 @@ nav{
 }
 
 .big{
-    background-color: royalblue;
     height: 100%;
     width: 70%;
 }
 
 .small{
-    background-color: yellow;
     height: 100%;
     width: 30%;
 }
